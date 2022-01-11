@@ -11,6 +11,12 @@
   </head>
 
   <body>
+  <header class="navbar navbar-fixed-top bg-dark text-white">
+    <%= render 'layouts/header' %>
+  </header>
+  <div class="container">
     <%= yield %>
+    <%= render 'layouts/footer' %>
+  </div>
   </body>
 </html>
